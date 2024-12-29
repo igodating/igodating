@@ -20,6 +20,7 @@
         <module>igodating-questionary-service</module>
         <module>igodating-geodata-service</module>
         <module>igodating-commons</module>
+        <module>igodating-user-service</module>
     </modules>
 
     <properties>

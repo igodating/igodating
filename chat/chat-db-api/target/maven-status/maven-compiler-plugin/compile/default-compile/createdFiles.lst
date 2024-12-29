@@ -1,0 +1,14 @@
+com/bpcbt/marketplace/chat/db/api/dto/MessageDto$MessageDtoBuilder.class
+com/bpcbt/marketplace/chat/db/api/dto/ChatDto.class
+com/bpcbt/marketplace/chat/db/api/dto/ChatPaginationDto.class
+com/bpcbt/marketplace/chat/db/api/dto/ChatDto$ChatDtoBuilder.class
+com/bpcbt/marketplace/chat/db/api/dto/ChatMemberDto.class
+com/bpcbt/marketplace/chat/db/api/FileOperation.class
+com/bpcbt/marketplace/chat/db/api/dto/MessageDto.class
+com/bpcbt/marketplace/chat/db/api/dto/ChatMemberCreateDto.class
+com/bpcbt/marketplace/chat/db/api/dto/ChatMemberDto$ChatMemberDtoBuilder.class
+com/bpcbt/marketplace/chat/db/api/dto/ChatInfoByUserDto.class
+com/bpcbt/marketplace/chat/db/api/dto/ChatInfoByUserDto$ChatInfoByUserDtoBuilder.class
+com/bpcbt/marketplace/chat/db/api/ChatRepository.class
+com/bpcbt/marketplace/chat/db/api/dto/ChatMemberCreateDto$ChatMemberCreateDtoBuilder.class
+com/bpcbt/marketplace/chat/db/api/dto/ChatPaginationDto$ChatPaginationDtoBuilder.class

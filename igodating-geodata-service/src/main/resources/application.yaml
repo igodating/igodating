@@ -19,7 +19,7 @@ spring:
             issuer-uri: http://localhost:8080/realms/IgodatingKeycloak
             user-name-attribute: preferred_username
   application:
-    name: igowed-geodata-service
+    name: igodating-geodata-service
   datasource:
     hikari:
       minimum-idle: 1

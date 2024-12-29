@@ -1,0 +1,8 @@
+/home/user/BPC-marketPlace/marketplace/microservices/chat/chat-db-api/src/main/java/com/bpcbt/marketplace/chat/db/api/ChatRepository.java
+/home/user/BPC-marketPlace/marketplace/microservices/chat/chat-db-api/src/main/java/com/bpcbt/marketplace/chat/db/api/FileOperation.java
+/home/user/BPC-marketPlace/marketplace/microservices/chat/chat-db-api/src/main/java/com/bpcbt/marketplace/chat/db/api/dto/ChatDto.java
+/home/user/BPC-marketPlace/marketplace/microservices/chat/chat-db-api/src/main/java/com/bpcbt/marketplace/chat/db/api/dto/ChatInfoByUserDto.java
+/home/user/BPC-marketPlace/marketplace/microservices/chat/chat-db-api/src/main/java/com/bpcbt/marketplace/chat/db/api/dto/ChatMemberCreateDto.java
+/home/user/BPC-marketPlace/marketplace/microservices/chat/chat-db-api/src/main/java/com/bpcbt/marketplace/chat/db/api/dto/ChatMemberDto.java
+/home/user/BPC-marketPlace/marketplace/microservices/chat/chat-db-api/src/main/java/com/bpcbt/marketplace/chat/db/api/dto/ChatPaginationDto.java
+/home/user/BPC-marketPlace/marketplace/microservices/chat/chat-db-api/src/main/java/com/bpcbt/marketplace/chat/db/api/dto/MessageDto.java

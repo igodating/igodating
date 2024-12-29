@@ -1,0 +1,61 @@
+encrypt.key: ${ENCRYPT_KEY:12345}
+server:
+  shutdown: graceful
+spring:
+  application:
+    name: chat-service
+  cloud:
+    config:
+      username: ${CONFIG_USERNAME:configUser}
+      password: ${CONFIG_PASSWORD:configPassword}
+      discovery:
+        enabled: true
+        service-id: config-server
+      fail-fast: true
+      retry:
+        multiplier: 1.3
+        max-attempts: 10
+        max-interval: 13000
+  mvc:
+    formcontent:
+      filter:
+        enabled: false
+  web:
+    resources:
+      add-mappings: false
+  threads:
+    virtual:
+      enabled: true
+eureka:
+  instance:
+    preferIpAddress: true
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: ${DISCOVERY_SERVER_URL:http://eureka:password@localhost:8761/eureka}
+logging:
+  config: classpath:log4j2-spring.xml
+swagger:
+  title: Chat service API
+springdoc:
+  packages-to-scan: com.bpcbt.marketplace.boot.chat.controller, com.bpcbt.marketplace.boot.commons.controller
+---
+spring:
+  config:
+    activate:
+      on-profile: test
+logging.config: classpath:log4j2-spring.xml
+---
+
+spring:
+  config:
+    activate:
+      on-profile: dev
+logging.config: classpath:log4j2-spring.xml
+---
+spring:
+  config:
+    activate:
+      on-profile: prod
+logging.config: classpath:log4j2-spring-prod.xml

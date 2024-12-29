@@ -1,0 +1,5 @@
+
+n
+java:S1948"&Make "data" transient or serializable.(ïú„şÿÿÿÿ8ÍşáÚÖ2J$bcbfbd6b-c26a-441a-81ac-2e292a407ba2
+¶
+java:S6204L"zReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()' and ensure that the list is unmodified.(ª™¨¹J$866fe325-0472-4298-a237-e0ab2c7c6593

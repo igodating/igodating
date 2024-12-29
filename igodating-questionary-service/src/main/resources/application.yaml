@@ -24,7 +24,7 @@ spring:
         config:
           textEmbeddingService.url: http://localhost:5000/api/v1/
   application:
-    name: igowed-questionary-service
+    name: igodating-questionary-service
   datasource:
     hikari:
       minimum-idle: 1

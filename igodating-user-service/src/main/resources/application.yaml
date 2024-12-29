@@ -1,0 +1,31 @@
+server:
+  port: 8083
+
+spring:
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: http://localhost:8080/realms/IgodatingKeycloak
+      client:
+        registration:
+          keycloak:
+            client-authentication-method: client_secret_basic
+            client-id: igodating-user-service
+            authorization-grant-type: authorization_code
+            scope: openid
+        provider:
+          keycloak:
+            issuer-uri: http://localhost:8080/realms/IgodatingKeycloak
+            user-name-attribute: preferred_username
+  application:
+    name: igodating-user-service
+
+  jpa:
+    properties:
+      hibernate:
+        default_schema: igodating_keycloak
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+
+keycloak:
+  base-url: http://localhost:8080/
