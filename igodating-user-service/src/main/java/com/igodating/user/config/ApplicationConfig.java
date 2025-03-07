@@ -7,4 +7,5 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 @EnableWebMvc
 public class ApplicationConfig {
     //todo минорное изменение для проверки пуша
+    //todo еще одно минорное изменение
 }
